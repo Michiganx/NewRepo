@@ -10,7 +10,7 @@ namespace shared_app_test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pasta - dniwe");
+            Console.WriteLine("Eric - dniwe");
         }
     }
 }
