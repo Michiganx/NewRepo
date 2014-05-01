@@ -11,6 +11,7 @@ namespace shared_app_test
         static void Main(string[] args)
         {
             Console.WriteLine("Eric - dniwe");
+            Console.WriteLine("how about NO?");
         }
     }
 }
