@@ -12,6 +12,7 @@ namespace shared_app_test
         {
             Console.WriteLine("Eric - dniwe");
             Console.WriteLine("how about NO?");
+            Console.WriteLine("how about suck my dick?");
         }
     }
 }
