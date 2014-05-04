@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace shared_app_test
 {
@@ -12,6 +8,16 @@ namespace shared_app_test
         {
             Console.WriteLine("Eric - dniwe");
             Console.WriteLine("how about NO?");
+            Console.WriteLine("how about suck my dick?");
+            Console.WriteLine(Fact(10));
+        }
+
+        static int Fact(int n)
+        {
+            if (n > 1)
+                return Fact(n - 1);
+            else
+                return 1;
         }
     }
 }
