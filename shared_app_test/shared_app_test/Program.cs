@@ -14,10 +14,13 @@ namespace shared_app_test
 
         static int Fact(int n)
         {
-            if (n > 1)
-                return Fact(n - 1);
-            else
-                return 1;
+            //switched from recursive
+            int acc =1;
+            for (int i = 1; i <= n; i++)
+            {
+                acc*=i;
+            }
+            return acc;
         }
     }
 }
